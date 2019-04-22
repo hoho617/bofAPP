@@ -38,7 +38,7 @@ const store = new Vuex.Store({
 			
 			uni.setStorageSync('userInfo', {...state});	
 		},
-		selectColor(state){ //下拉选择颜色
+		selectColor(state){ //下拉选择颜色，
 			state.colorIndex ++;
 			if (state.colorIndex >= state.colorArr.length) {
 				state.colorIndex = 0;
