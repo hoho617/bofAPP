@@ -2,7 +2,7 @@
 export default {
 	onLaunch: function() {
 		console.log('App Launch');
-
+		console.log('111111');
 		setTimeout(() => {
 			uni.setTabBarBadge({
 				index: 1,
