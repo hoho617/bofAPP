@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "uni-badge": "/components/uni-badge",
+    "uni-number-box": "/components/uni-number-box",
+    "my-image": "/components/my-image",
+    "weixin-parse": "/components/mpvue-wxparse/src/wxParse"
+  }
+}

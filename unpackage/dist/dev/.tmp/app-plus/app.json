@@ -1,0 +1,113 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/finance/finance",
+    "pages/tabbar/deal/deal",
+    "pages/tabbar/team/team",
+    "pages/tabbar/shop/shop",
+    "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
+    "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
+    "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
+    "pages/login/login/login",
+    "pages/login/findpassword/findpassword",
+    "pages/login/setpassword/setpassword",
+    "pages/shops/shop-goods-detail/shop-goods-detail",
+    "pages/shops/shop-cart-list/shop-cart-list",
+    "pages/shops/shop-order-place/shop-order-place",
+    "pages/shops/shop-cashier/shop-cashier",
+    "pages/mycenter/mine/mine",
+    "pages/mycenter/user-info/user-info",
+    "pages/mycenter/user-info/user-info-edit/user-info-edit",
+    "pages/mycenter/password/password",
+    "pages/mycenter/address/address-manage/address-manage",
+    "pages/mycenter/address/address-edit/address-edit",
+    "pages/mycenter/card/card-manage/card-manage",
+    "pages/mycenter/card/card-edit/card-edit",
+    "pages/mycenter/message/message",
+    "pages/mycenter/message/message-detail/message-detail",
+    "pages/mycenter/order/order-list",
+    "pages/mycenter/order/order-detail/order-detail",
+    "pages/bonus/bonus-list/bonus-list",
+    "pages/bonus/reward-list/reward-list",
+    "pages/bonus/share-list/share-list",
+    "pages/bonus/share/share",
+    "pages/bonus/kefu/kefu",
+    "pages/bonus/code-receivable/code-receivable",
+    "pages/bonus/code-receivable/receive-list/receive-list",
+    "pages/bonus/scan-payment/scan-payment",
+    "pages/bonus/scan-payment/payment-list/payment-list",
+    "pages/bonus/user-transfer/user-transfer",
+    "pages/bonus/user-transfer/transfer-list/transfer-list",
+    "pages/bonus/user-cash/user-cash",
+    "pages/bonus/user-cash/cash-list/cash-list",
+    "pages/bonus/user-recharge/user-recharge",
+    "pages/bonus/user-recharge/recharge-list/recharge-list",
+    "pages/bonus/user-community/user-community",
+    "pages/bonus/user-machine/machine-apply/machine-apply",
+    "pages/bonus/user-machine/machine-upgrade/machine-upgrade",
+    "pages/bonus/user-machine/upgrade-list/upgrade-list",
+    "pages/bonus/user-machine/machine-start/machine-start",
+    "pages/bonus/user-machine/machine-active/machine-active",
+    "pages/bonus/user-exchange/user-exchange",
+    "pages/bonus/business/business",
+    "pages/bonus/business/business-list/business-list",
+    "pages/bonus/buyer-list/buyer-list",
+    "pages/bonus/balance-list/balance-list",
+    "pages/bonus/balance-list/buyer-detail/buyer-detail",
+    "pages/bonus/balance-list/receive-confirm/receive-confirm",
+    "pages/bonus/balance-list/voucher-fill/voucher-fill",
+    "pages/bonus/balance-list/balance-detail/balance-detail",
+    "pages/team-inner/team-inner"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "BOF",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fefefe",
+    "color": "#8F8F94",
+    "selectedColor": "#2d98fa",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/homeactive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/finance/finance",
+        "iconPath": "static/img/tabbar/zichan.png",
+        "selectedIconPath": "static/img/tabbar/zichanactive.png",
+        "text": "资产"
+      },
+      {
+        "pagePath": "pages/tabbar/deal/deal",
+        "iconPath": "static/img/tabbar/deal.png",
+        "selectedIconPath": "static/img/tabbar/deal.png"
+      },
+      {
+        "pagePath": "pages/tabbar/team/team",
+        "iconPath": "static/img/tabbar/team.png",
+        "selectedIconPath": "static/img/tabbar/teamactive.png",
+        "text": "商学院"
+      },
+      {
+        "pagePath": "pages/tabbar/shop/shop",
+        "iconPath": "static/img/tabbar/shop.png",
+        "selectedIconPath": "static/img/tabbar/shopactive.png",
+        "text": "商城"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "test",
+  "compilerVersion": "1.9.2"
+}

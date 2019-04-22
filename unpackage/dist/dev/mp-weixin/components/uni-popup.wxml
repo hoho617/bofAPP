@@ -1,0 +1,1 @@
+<view bind:__l="__l"><view data-event-opts="{{[['tap',[['hide',['$event']]]]]}}" hidden="{{!(show)}}" class="uni-mask" style="{{'top:'+(offsetTop+'px')+';'}}" bindtap="__e"></view><view hidden="{{!(show)}}" class="{{['uni-popup','uni-popup-'+type]}}">{{''+msg+''}}<slot></slot></view></view>

@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "挂卖申请",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "交易记录",
+        "fontSize": "16px",
+        "color": "#333",
+        "width": "100px"
+      }
+    ]
+  }
+}

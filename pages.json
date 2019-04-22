@@ -1,0 +1,520 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		/* {
+			"path": "pages/tabbar/finance/finance",
+			"style": {
+				"navigationBarTitleText": "资产",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue532",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "28px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+
+		}, */
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/tabbar/finance/finance",
+			"style": {
+				"navigationBarTitleText": "资产",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue532",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "28px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+
+		},
+		{
+			"path": "pages/tabbar/deal/deal",
+			"style": {
+				"navigationBarTitleText": "交易"
+			}
+		},
+		{	
+			"path": "pages/tabbar/team/team",
+			"style": {
+				"navigationBarTitleText": "商学院",
+				"app-plus": {
+                    "titleNView": {
+                        "buttons": [{
+                                "text": "\ue582",
+                                "fontSrc": "/static/uni.ttf",
+                                "fontSize": "22px",
+                                "float": "left"
+                            }
+                            /* {
+                                "text": "\ue606",
+                                "fontSrc": "/static/iconfont.ttf",
+                                "fontSize": "22px"
+
+                            } */
+                        ]
+                    }
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/shop/shop",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
+			"style": {}
+		},
+		{
+			"path": "pages/login/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/findpassword/findpassword",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/login/setpassword/setpassword",
+			"style": {
+				"navigationBarTitleText": "设置密码"
+			}
+		},
+		{
+			"path": "pages/shops/shop-goods-detail/shop-goods-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/shops/shop-cart-list/shop-cart-list",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/shops/shop-order-place/shop-order-place",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/shops/shop-cashier/shop-cashier",
+			"style": {
+				"navigationBarTitleText": "收银台"
+			}
+		},
+		{
+			"path": "pages/mycenter/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/mycenter/user-info/user-info",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		}, {
+			"path": "pages/mycenter/user-info/user-info-edit/user-info-edit",
+			"style": {
+				"navigationBarTitleText": "编辑个人资料"
+			}
+		}, {
+			"path": "pages/mycenter/password/password",
+			"style": {
+				"navigationBarTitleText": "修改登录密码"
+			}
+		}, {
+			"path": "pages/mycenter/address/address-manage/address-manage",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		}, {
+			"path": "pages/mycenter/address/address-edit/address-edit",
+			"style": {
+				"navigationBarTitleText": "新增收货地址"
+			}
+		}, {
+			"path": "pages/mycenter/card/card-manage/card-manage",
+			"style": {
+				"navigationBarTitleText": "银行账号管理"
+			}
+		}, {
+			"path": "pages/mycenter/card/card-edit/card-edit",
+			"style": {
+				"navigationBarTitleText": "新增银行卡"
+			}
+		}, {
+			"path": "pages/mycenter/message/message",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		}, {
+			"path": "pages/mycenter/message/message-detail/message-detail",
+			"style": {
+				"navigationBarTitleText": "消息详情"
+			}
+		}, {
+			"path": "pages/mycenter/order/order-list",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "pages/mycenter/order/order-detail/order-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/bonus/bonus-list/bonus-list",
+			"style": {
+				"navigationBarTitleText": "收入明细"
+			}
+		},
+		{
+			"path": "pages/bonus/reward-list/reward-list",
+			"style": {
+				"navigationBarTitleText": "分红明细"
+			}
+		},
+		{
+			"path": "pages/bonus/share-list/share-list",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/bonus/share/share",
+			"style": {
+				"navigationBarTitleText": "公 有",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "保存图片",
+							"fontSize": "16px",
+							"color": "#333",
+							"width": "100px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bonus/kefu/kefu",
+			"style": {
+				"navigationBarTitleText": "我的客服"
+			}
+		},
+		{
+			"path": "pages/bonus/code-receivable/code-receivable",
+			"style": {
+				"navigationBarTitleText": "二维码收款",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "收款明细",
+							"fontSize": "16px",
+							"color": "#333",
+							"width": "100px"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/bonus/code-receivable/receive-list/receive-list",
+			"style": {
+				"navigationBarTitleText": "收款明细"
+			}
+		}, {
+			"path": "pages/bonus/scan-payment/scan-payment",
+			"style": {
+				"navigationBarTitleText": "扫码支付",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "付款记录",
+							"fontSize": "16px",
+							"color": "#333",
+							"width": "100px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bonus/scan-payment/payment-list/payment-list",
+			"style": {
+				"navigationBarTitleText": "付款记录"
+			}
+		},
+		{
+			"path": "pages/bonus/user-transfer/user-transfer",
+			"style": {
+				"navigationBarTitleText": "会员转账",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "转账记录",
+							"fontSize": "16px",
+							"color": "#333",
+							"width": "100px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bonus/user-transfer/transfer-list/transfer-list",
+			"style": {
+				"navigationBarTitleText": "会员转账记录"
+			}
+		},
+		{
+			"path": "pages/bonus/user-cash/user-cash",
+			"style": {
+				"navigationBarTitleText": "挂卖申请",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "交易记录",
+							"fontSize": "16px",
+							"color": "#333",
+							"width": "100px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bonus/user-cash/cash-list/cash-list",
+			"style": {
+				"navigationBarTitleText": "交易记录"
+			}
+		},
+		{
+			"path": "pages/bonus/user-recharge/user-recharge",
+			"style": {
+				"navigationBarTitleText": "会员充值",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "充值记录",
+							"fontSize": "16px",
+							"color": "#333",
+							"width": "100px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bonus/user-recharge/recharge-list/recharge-list",
+			"style": {
+				"navigationBarTitleText": "充值记录"
+			}
+		},
+		{
+			"path": "pages/bonus/user-community/user-community",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		}, {
+			"path": "pages/bonus/user-machine/machine-apply/machine-apply",
+			"style": {
+				"navigationBarTitleText": "矿机申请"
+			}
+		},
+		{
+			"path": "pages/bonus/user-machine/machine-upgrade/machine-upgrade",
+			"style": {
+				"navigationBarTitleText": "矿机升级",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "升级记录",
+							"fontSize": "16px",
+							"color": "#333",
+							"width": "80px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bonus/user-machine/upgrade-list/upgrade-list",
+			"style": {
+				"navigationBarTitleText": "升级记录"
+			}
+		},
+		{
+			"path": "pages/bonus/user-machine/machine-start/machine-start",
+			"style": {
+				"navigationBarTitleText": "矿机启动",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "分享",
+							"fontSize": "16px",
+							"color": "#333",
+							"width": "80px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bonus/user-machine/machine-active/machine-active",
+			"style": {
+				"navigationBarTitleText": "会员激活"
+			}
+		},
+		{
+			"path": "pages/bonus/user-exchange/user-exchange",
+			"style": {
+				"navigationBarTitleText": "交易"
+			}
+		}, {
+			"path": "pages/bonus/business/business",
+			"style": {
+				"navigationBarTitleText": "商家"
+			}
+		},
+		{
+			"path": "pages/bonus/business/business-list/business-list",
+			"style": {
+				"navigationBarTitleText": "收款记录"
+			}
+		},
+		{
+			"path": "pages/bonus/buyer-list/buyer-list",
+			"style": {
+				"navigationBarTitleText": "买家"
+			}
+		},
+		{
+			"path": "pages/bonus/balance-list/balance-list",
+			"style": {
+				"navigationBarTitleText": "通证挂卖列表",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "交易明细",
+							"fontSize": "16px",
+							"color": "#333",
+							"width": "100px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bonus/balance-list/buyer-detail/buyer-detail",
+			"style": {
+				"navigationBarTitleText": "买入详情"
+			}
+		}, {
+			"path": "pages/bonus/balance-list/receive-confirm/receive-confirm",
+			"style": {
+				"navigationBarTitleText": "收款确认"
+			}
+		},
+		{
+			"path": "pages/bonus/balance-list/voucher-fill/voucher-fill",
+			"style": {
+				"navigationBarTitleText": "填写汇款信息"
+			}
+		},
+		{
+			"path": "pages/bonus/balance-list/balance-detail/balance-detail",
+			"style": {
+				"navigationBarTitleText": "交易明细"
+			}
+		}
+	    ,{
+            "path" : "pages/team-inner/team-inner",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "BOF",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		// "backgroundColor": "#333",
+		"backgroundColor": "#fefefe",
+		"color": "#8F8F94",
+		"selectedColor": "#2d98fa",
+		// "selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/tabbar/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/finance/finance",
+				"iconPath": "static/img/tabbar/zichan.png",
+				"selectedIconPath": "static/img/tabbar/zichanactive.png",
+				"text": "资产"
+			},
+			//#ifdef MP-WEIXIN
+			{
+				"pagePath": "pages/tabbar/deal/deal",
+				"iconPath": "static/img/tabbar/deal.png",
+				"selectedIconPath": "static/img/tabbar/deal.png",
+				"text": "交易"
+			},
+			//#endif
+			//#ifndef MP-WEIXIN
+			{
+				"pagePath": "pages/tabbar/deal/deal",
+				"iconPath": "static/img/tabbar/deal.png",
+				"selectedIconPath": "static/img/tabbar/deal.png"
+			},
+			//#endif
+			{
+				"pagePath": "pages/tabbar/team/team",
+				"iconPath": "static/img/tabbar/team.png",
+				"selectedIconPath": "static/img/tabbar/teamactive.png",
+				"text": "商学院"
+			},
+			{
+				"pagePath": "pages/tabbar/shop/shop",
+				"iconPath": "static/img/tabbar/shop.png",
+				"selectedIconPath": "static/img/tabbar/shopactive.png",
+				"text": "商城"
+			}
+		]
+	}
+}

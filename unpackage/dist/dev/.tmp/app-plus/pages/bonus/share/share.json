@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "公 有",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "保存图片",
+        "fontSize": "16px",
+        "color": "#333",
+        "width": "100px"
+      }
+    ]
+  }
+}

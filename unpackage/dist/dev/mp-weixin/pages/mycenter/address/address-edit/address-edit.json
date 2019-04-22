@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新增收货地址",
+  "usingComponents": {
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "会员转账",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "转账记录",
+        "fontSize": "16px",
+        "color": "#333",
+        "width": "100px"
+      }
+    ]
+  }
+}

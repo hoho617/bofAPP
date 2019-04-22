@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "会员充值",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "充值记录",
+        "fontSize": "16px",
+        "color": "#333",
+        "width": "100px"
+      }
+    ]
+  }
+}

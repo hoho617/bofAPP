@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-image": "/components/my-image",
+    "uni-load-more": "/components/uni-load-more",
+    "media-list": "/components/media-list"
+  }
+}

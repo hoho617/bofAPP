@@ -1,0 +1,2 @@
+<import src="./reward-list.vue.wxml" />
+    <template is="42783ec9" data="{{ ...$root['0'], $root }}"/>

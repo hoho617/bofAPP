@@ -1,0 +1,73 @@
+.white {
+	color:white;
+}
+.black {
+	color:black;
+}
+.blue {
+	color:blue;
+}
+.green {
+	color:green;
+}
+.orange {
+	color:orange;
+}
+.orange-dark {
+	color:#ff6700;
+}
+.red {
+	color:red;
+}
+.navy {
+	color:navy;
+}
+.royalblue {
+	color:royalblue;
+}
+.darksalmon {
+	color:darksalmon;
+}
+.darkcyan {
+	/* color:saddlebrown; */
+	color:darkcyan;
+}
+.mediumpurple {
+	color:mediumpurple
+}
+.balance-money {
+	color:red;
+}
+.integral {
+	color:#F2A12E
+}
+.common-vote {
+	color:limegreen
+}
+.custum-coupon {
+	color:darkcyan;
+}
+.bg-white {
+	background-color:white;
+}
+.bg-black {
+	background-color:black;
+}
+.bg-blue {
+	background-color:blue;
+}
+.bg-green {
+	background-color:green;
+}
+.bg-orange {
+	background-color:orange;
+}
+.bg-red {
+	background-color:red;
+}
+.bg-navy {
+	background-color:navy;
+}
+.bg-royalblue {
+	background-color:royalblue;
+}

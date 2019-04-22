@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "矿机升级",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "升级记录",
+        "fontSize": "16px",
+        "color": "#333",
+        "width": "80px"
+      }
+    ]
+  }
+}

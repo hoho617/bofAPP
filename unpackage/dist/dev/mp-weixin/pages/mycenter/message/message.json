@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "消息中心",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more"
+  }
+}

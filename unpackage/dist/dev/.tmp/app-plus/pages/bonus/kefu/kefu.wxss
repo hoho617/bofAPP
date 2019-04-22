@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.scroll-view.data-v-14c0bb10 {
+	color:#333;
+}
+.kefu.data-v-14c0bb10 {
+	padding:30rpx 24rpx;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.kefu .person.data-v-14c0bb10 {
+	width:280rpx;
+	height: 120rpx;
+}
+.kefu .box.data-v-14c0bb10 {
+	/* width:100upx; */
+	height: 120rpx;
+}
+.hello.data-v-14c0bb10 {
+	position: absolute;
+	left:290rpx;
+	right:24rpx;
+	font-size: 24rpx;
+	color:#333;
+	line-height: 1.6;
+}
+.contact.data-v-14c0bb10 {
+	margin-top:16rpx;
+}
+.contact-item.data-v-14c0bb10 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding:20rpx 26rpx;
+}
+.contact-methods.data-v-14c0bb10 {
+	text-align: center;
+	width:120rpx;
+}
+.contact-methods .title.data-v-14c0bb10 {
+	font-size: 24rpx;
+	margin-top:14rpx;
+}
+.contact .num.data-v-14c0bb10 {
+	font-size: 48rpx;
+	padding-right: 120rpx;
+	text-align: center;
+	color:#000;
+}
+.codeimg-box.data-v-14c0bb10 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding:30rpx 12rpx;
+}
+.codeimg-box .code-item.data-v-14c0bb10 {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	padding:0 12rpx;
+}
+.codeimg-box .code-item image.data-v-14c0bb10 {
+	width:100%;
+}
+.fixed-footer.data-v-14c0bb10 {
+	position: fixed;
+	bottom:0;
+	width:100%;
+}
+.footer-btn.data-v-14c0bb10 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	height: 100rpx;
+	color:#fff;
+	position: absolute;
+	left:0;
+	bottom: 0;
+	z-index: 2;
+	width:100%;
+	font-size: 32rpx;
+}
+page.data-v-14c0bb10 {
+  height: 100%;
+}
+.scroll-view.data-v-14c0bb10 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+  z-index: 99;
+}
+.scroll-view .swiper-area.data-v-14c0bb10 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.scroll-view .swiper-area .swiper.data-v-14c0bb10 {
+      height: 100%;
+      width: 100%;
+}
+.scroll-view .swiper-area .swiper .swiper-item.data-v-14c0bb10 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+}
+.scroll-view .swiper-area .swiper .swiper-item .save-btn.data-v-14c0bb10 {
+          font-size: 32rpx;
+          color: #fff;
+          text-align: right;
+          padding-top: 40rpx;
+          padding-right: 60rpx;
+}
+.scroll-view .swiper-area .swiper .swiper-item image.data-v-14c0bb10 {
+          margin-top: 160rpx;
+          width: 70%;
+          height: 100%;
+          border-radius: 10rpx;
+          vertical-align: middle;
+}
+.scroll-view .swiper-area .qrcode-area.data-v-14c0bb10 {
+      position: absolute;
+      bottom: 128rpx;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
+}
+.saveimg-area.data-v-14c0bb10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+.saveimg-area .saveimg-area canvas.data-v-14c0bb10 {
+    z-index: 1000;
+}
+

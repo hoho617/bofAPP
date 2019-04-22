@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "my-image": "/components/my-image"
+  }
+}

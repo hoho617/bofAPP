@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "矿机启动",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "分享",
+        "fontSize": "16px",
+        "color": "#333",
+        "width": "80px"
+      }
+    ]
+  }
+}

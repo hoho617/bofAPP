@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "扫码支付",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "付款记录",
+        "fontSize": "16px",
+        "color": "#333",
+        "width": "100px"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+
+.tabbar-box {
+	flex-wrap: wrap;
+}
+.wrap-container .tabbar-box-wrap .tabbar-box .tabbar-box-item {
+	height: 80px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin:0 !important;
+	color:#333;
+	border-bottom:2upx solid #eee;
+}
+.wrap-container .tabbar-box-wrap .tabbar-box .tabbar-box-item:last-child {
+	border:none;
+}
+.ticket {
+	font-size: 34upx;
+	width:300upx;
+	text-align: left;
+}
+.num {
+    font-size: 34upx;
+	width:200upx;
+	text-align: right;
+	display: inline-block;
+}
+.li-right {
+    font-size: 38upx;
+    color: #fff;	
+    /*font-weight: bold;*/
+    width: 90px;
+    height: 36px;
+    background-color: #ef402d;/* ea3f37 */
+    line-height: 36px;
+    border-radius: 5px;
+	text-align: center;
+	margin-left:10upx;
+}
+.line {
+    font-size: 36upx;
+    color: #fff;
+    /*font-weight: bold;*/
+    height: 36px;
+    background-color: #3ce15f;/* 4eb772 */
+    width: 90px;
+    line-height: 36px;
+    border-radius: 5px;
+	text-align: center;
+	margin-left:10upx;
+}

@@ -1,0 +1,2 @@
+<import src="./machine-upgrade.vue.wxml" />
+    <template is="6aea581a" data="{{ ...$root['0'], $root }}"/>

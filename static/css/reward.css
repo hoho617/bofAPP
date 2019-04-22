@@ -1,0 +1,32 @@
+.list-box {
+	
+}
+.list-item {
+	padding:30upx 24upx;
+	color:#333;
+	border-bottom:2upx solid #eee;
+}
+.list-item-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom:10upx;
+}
+.list-item-top view {
+	font-size: 32upx;
+}
+.item-money {
+	font-size: 30upx;
+}
+.item-others {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.item-others-four {
+	font-size: 30upx;
+	width:50%;
+	margin-top:20upx;
+	opacity: .9;
+}

@@ -1,0 +1,1 @@
+<image src="{{imgUrl}}" mode="{{mode}}" bind:__l="__l"></image>

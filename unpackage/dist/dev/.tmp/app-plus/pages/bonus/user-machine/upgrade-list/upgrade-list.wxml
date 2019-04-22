@@ -1,0 +1,2 @@
+<import src="./upgrade-list.vue.wxml" />
+    <template is="5612ed65" data="{{ ...$root['0'], $root }}"/>

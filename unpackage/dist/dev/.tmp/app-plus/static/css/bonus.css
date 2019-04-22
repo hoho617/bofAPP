@@ -1,0 +1,24 @@
+.list-box {
+	
+}
+.list-item {
+	padding:30upx 24upx;
+	color:#333;
+	border-bottom:2upx solid #eee;
+}
+.list-item-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60upx;
+}
+.list-item-top view {
+	font-size: 32upx;
+}
+.item-money {
+	font-size: 30upx;
+}
+.item-memo {
+	font-size: 30upx;
+	margin-top:8upx;
+}

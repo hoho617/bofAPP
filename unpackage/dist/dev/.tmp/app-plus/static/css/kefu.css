@@ -1,0 +1,85 @@
+.scroll-view {
+	color:#333;
+}
+.kefu {
+	padding:30upx 24upx;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.kefu .person {
+	width:280upx;
+	height: 120upx;
+}
+.kefu .box {
+	/* width:100upx; */
+	height: 120upx;
+}
+.hello {
+	position: absolute;
+	left:290upx;
+	right:24upx;
+	font-size: 24upx;
+	color:#333;
+	line-height: 1.6;
+	
+}
+.contact {
+	margin-top:16upx;
+}
+.contact-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:20upx 26upx;
+}
+.contact-methods {
+	text-align: center;
+	width:120upx;
+}
+.contact-methods .title {
+	font-size: 24upx;
+	margin-top:14upx;
+}
+.contact .num {
+	font-size: 48upx;
+	padding-right: 120upx;
+	text-align: center;
+	color:#000;
+}
+.codeimg-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:30upx 12upx;
+}
+.codeimg-box .code-item {
+	flex: 1;
+	padding:0 12upx;
+}
+.codeimg-box .code-item image {
+	width:100%;
+}
+
+
+
+.fixed-footer {
+	position: fixed;
+	bottom:0;
+	width:100%;
+	
+}
+.footer-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100upx;
+	color:#fff;
+	position: absolute;
+	left:0;
+	bottom: 0;
+	z-index: 2;
+	width:100%;
+	font-size: 32upx;
+}

@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "资产",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/uni.ttf",
+        "fontSize": "28px",
+        "color": "#999999"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "通证挂卖列表",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "交易明细",
+        "fontSize": "16px",
+        "color": "#333",
+        "width": "100px"
+      }
+    ]
+  }
+}

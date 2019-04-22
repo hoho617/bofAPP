@@ -1,0 +1,1 @@
+<view class="good-item" hover-class data-event-opts="{{[['tap',[['bindClick',['$event']]]]]}}" bindtap="__e" bind:__l="__l"><view class="img-wrap"><my-image data="{{data.goodsPics}}"></my-image></view><view class="goods-name">{{data.goodsName}}</view></view>

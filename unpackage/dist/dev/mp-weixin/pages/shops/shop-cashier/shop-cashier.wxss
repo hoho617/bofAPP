@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* @import '../../../uni.scss'; */
+page.data-v-21c9d38e {
+  height: 100%;
+  background-color: #f4f4f4;
+}
+view.data-v-21c9d38e {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.scroll-view.data-v-21c9d38e {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+  z-index: 99;
+}
+.block-group.data-v-21c9d38e {
+  width: 96%;
+  margin: 0 auto;
+}
+.block-group .item-inner.data-v-21c9d38e {
+    padding: 0 24rpx;
+    height: 88rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+}
+.block-group .item-inner.data-v-21c9d38e:after {
+      content: "";
+      display: block;
+      height: 2rpx;
+      position: absolute;
+      left: 20rpx;
+      right: 0;
+      bottom: 0;
+      background-color: #f4f4f4;
+}
+.block-group .item-inner .red-price.data-v-21c9d38e {
+      color: #db4c3f;
+}
+.block-group .item-icon .item-title .icon.data-v-21c9d38e {
+    color: #f00;
+    margin-right: 10rpx;
+    font-size: 28rpx;
+}
+.block-group .item-icon .icon.data-v-21c9d38e {
+    font-size: 34rpx;
+    color: #999;
+}
+.block-group .item-collapse-box.data-v-21c9d38e {
+    padding: 0 24rpx 30rpx 50rpx;
+}
+.block-group .item-collapse-box .collapse-inner.data-v-21c9d38e {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      height: 88rpx;
+}
+.block-group .item-collapse-box .pay-btn.data-v-21c9d38e {
+      width: 280rpx;
+      height: 66rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-color: #ea3f37;
+      color: #fff;
+      font-size: 30rpx;
+      margin: 40rpx auto 0;
+      border-radius: 10rpx;
+}
+.gap-height.data-v-21c9d38e {
+  margin-top: 14rpx;
+}
+.popup-head.data-v-21c9d38e {
+  position: relative;
+}
+.popup-head .close-btn.data-v-21c9d38e {
+    position: absolute;
+    width: 80rpx;
+    height: 100rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.popup-head .close-btn .icon.data-v-21c9d38e {
+      font-size: 34rpx;
+      color: #333;
+}
+.popup-head .popup-title.data-v-21c9d38e {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: bold;
+    font-size: 30rpx;
+    height: 100rpx;
+}
+.popup-middle.data-v-21c9d38e {
+  border-top: 2rpx solid #f1f1f1;
+  border-bottom: 2rpx solid #f1f1f1;
+  padding-left: 80rpx;
+  padding: 30rpx 0 20rpx 80rpx;
+}
+.popup-middle .middle-item.data-v-21c9d38e {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 56rpx;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.pay-inputs.data-v-21c9d38e {
+  position: relative;
+  width: 90%;
+  margin: 40rpx auto;
+}
+.pay-inputs .real-input.data-v-21c9d38e {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72rpx;
+    padding: 0;
+    opacity: 0;
+    z-index: 3;
+    background: none;
+    text-indent: -999em;
+}
+.pay-inputs .surface-inputs.data-v-21c9d38e {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 74rpx;
+    line-height: 74rpx;
+    z-index: 1;
+    overflow: hidden;
+}
+.pay-inputs .surface-inputs .surface-input.data-v-21c9d38e {
+      height: 74rpx;
+      line-height: 74rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      border: 2rpx solid #eee;
+}
+.pay-inputs .surface-inputs .surface-input input.data-v-21c9d38e {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        height: 36px;
+        line-height: 36px;
+        border: 0;
+        border-right: 2rpx solid #eee;
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+        background: none;
+}
+

@@ -1,0 +1,91 @@
+.inner-video {
+	height: 400upx;
+	width: 100%;
+
+}
+
+.inner-video video {
+	height: 100%;
+	width: 100%;
+}
+
+.inner-learnings {
+	padding:40upx 24upx 30upx;
+}
+.learning-title {
+	font-size: 30upx;
+	color:#666;
+	margin-bottom:30upx;
+}
+.big-fontsize {
+	font-size: 32upx;
+}
+.learning-links {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.link-item {
+	flex: 1;
+	text-align: center;
+	color:#808080;
+}
+.link-item .link-item-icon {
+	font-size: 70upx;
+}
+.link-item .link-item-name {
+	font-size: 28upx;
+	margin-top:20upx;
+}
+
+.inner-articles {
+	padding:0 24upx;
+}
+
+.articles-item {
+	
+	
+}
+.article-title {
+	font-size: 32upx;
+	color:#666;
+	padding:20upx 0 8upx;
+}
+.article-title .cuIcon-notice {
+	color:blue;
+	font-size: 36upx;
+	margin-right:8upx;
+}
+.article-lists {
+	padding:0 16upx;
+}
+.article-item {
+	padding:30upx 0;
+	border-bottom:2upx solid #f4f4f4;
+}
+.article-item-title {
+	font-size: 32upx;
+	color:#666;
+	line-height: 1.4;
+}
+.article-item-imgs {
+	margin:20upx 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.article-item-imgs .item-img {
+	flex:1;
+	border-radius: 10upx;
+	box-sizing: border-box;
+	padding:0 6upx;
+	
+}
+.item-img image {
+	border-radius:8upx;
+	width:100%;
+}
+.article-item-time {
+	font-size: 26upx;
+	opacity: .6;
+}

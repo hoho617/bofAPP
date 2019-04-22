@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "编辑个人资料",
+  "usingComponents": {
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker",
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker"
+  }
+}

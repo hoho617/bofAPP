@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "消息详情",
+  "usingComponents": {
+    "weixin-parse": "/components/mpvue-wxparse/src/wxParse"
+  }
+}

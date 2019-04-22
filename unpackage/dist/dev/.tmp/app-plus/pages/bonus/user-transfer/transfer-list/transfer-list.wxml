@@ -1,0 +1,2 @@
+<import src="./transfer-list.vue.wxml" />
+    <template is="58007aaf" data="{{ ...$root['0'], $root }}"/>
